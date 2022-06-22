@@ -1,5 +1,17 @@
-const message = "Hello Node!";
-message = "Goodbye Node!";
+const animalArray = ["dog", "cat", "pig"];
 
-const sum = 5 + 3;
-sum += 1;
+animalArray.push("cow");
+
+const personObj = {
+  name: "Bryant",
+  age: 99,
+};
+
+personObj.age = 100;
+personObj.occupation = "Developer";
+
+const printProfileData = (profileDataArr) => {
+  console.log(profileDataArr);
+};
+
+printProfileData(profileDataArgs);
